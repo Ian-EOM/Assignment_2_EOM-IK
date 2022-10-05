@@ -1,0 +1,16 @@
+---
+title: "Air Quality"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+
+```
+{r}
+data(airquality)
+airquality
+na.omit(airquality)
+
+```
